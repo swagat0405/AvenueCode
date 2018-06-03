@@ -28,7 +28,7 @@ class GoogleAPILocationsHomeViewController: UIViewController {
         noResultsLabel = UILabel(frame: CGRect(x: 0, y: 0, width: (self.resultsTableView.bounds.size.width), height: (self.resultsTableView.bounds.size.height)))
     }
     
-    func search(location: String) {
+    private func search(location: String) {
         NetworkManager().search(location: location) {[weak self] (locations) in
             print(locations)
             self?.locationSearchResults = locations

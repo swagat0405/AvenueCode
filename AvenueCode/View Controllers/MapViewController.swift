@@ -78,6 +78,12 @@ class MapViewController: UIViewController {
             } catch {
                 //Perform error handling
                 print(error.localizedDescription)
+                DispatchQueue.main.async {
+                    let alert = UIAlertController(title: "Error!!!", message: "Unable to save the location.", preferredStyle: .alert)
+                    let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+                    alert.addAction(cancelAction)
+                    self?.present(alert, animated: true, completion: nil)
+                }
             }
         })
     }
@@ -92,6 +98,12 @@ class MapViewController: UIViewController {
             } catch {
                 //Perform error handling
                 print(error.localizedDescription)
+                DispatchQueue.main.async {
+                    let alert = UIAlertController(title: "Error!!!", message: "Unable to delete the location.", preferredStyle: .alert)
+                    let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+                    alert.addAction(cancelAction)
+                    self?.present(alert, animated: true, completion: nil)
+                }
             }
         })
     }

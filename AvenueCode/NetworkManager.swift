@@ -14,7 +14,7 @@ class NetworkManager {
     
     var googleMapAPIUrl = "https://maps.googleapis.com/maps/api/geocode/json"
     
-    var apiKey = "AIzaSyC1O5yFuGY1kcZa8WugersbpxB6eXvuA14"
+    var apiKey = "AIzaSyA2gPnxwgCeGlZfmvrsNnLhK6N0T0V-oxo"
     
     func search(location: String, completionHandler: @escaping ([Location]) -> Void) {
         
@@ -29,6 +29,7 @@ class NetworkManager {
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             guard error == nil else {
                 print("Invalid location")
+                completionHandler([])
                 return
             }
             print(String(data: data!, encoding: .ascii) ?? "no data")

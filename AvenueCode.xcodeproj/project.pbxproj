@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30E96B120C4874A00254497 /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30E96B020C4874A00254497 /* NetworkTest.swift */; };
 		D3C5FC4A20C347A900B842C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC4920C347A900B842C2 /* AppDelegate.swift */; };
 		D3C5FC4F20C347A900B842C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C5FC4D20C347A900B842C2 /* Main.storyboard */; };
 		D3C5FC5220C347A900B842C2 /* AvenueCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC5020C347A900B842C2 /* AvenueCode.xcdatamodeld */; };
@@ -15,38 +16,16 @@
 		D3C5FC6220C347AA00B842C2 /* AvenueCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC6120C347AA00B842C2 /* AvenueCodeTests.swift */; };
 		D3C5FC6D20C347AA00B842C2 /* AvenueCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC6C20C347AA00B842C2 /* AvenueCodeUITests.swift */; };
 		D3C5FC7B20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC7A20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift */; };
-		D3C5FC7C20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC7A20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift */; };
-		D3C5FC7D20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC7A20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift */; };
 		D3C5FC7F20C3492100B842C2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC7E20C3492100B842C2 /* NetworkManager.swift */; };
-		D3C5FC8020C3492100B842C2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC7E20C3492100B842C2 /* NetworkManager.swift */; };
-		D3C5FC8120C3492100B842C2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC7E20C3492100B842C2 /* NetworkManager.swift */; };
 		D3C5FC8320C3495400B842C2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8220C3495400B842C2 /* Location.swift */; };
-		D3C5FC8420C3495400B842C2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8220C3495400B842C2 /* Location.swift */; };
-		D3C5FC8520C3495400B842C2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8220C3495400B842C2 /* Location.swift */; };
 		D3C5FC8720C34B6C00B842C2 /* AddressComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8620C34B6C00B842C2 /* AddressComponents.swift */; };
-		D3C5FC8820C34B6C00B842C2 /* AddressComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8620C34B6C00B842C2 /* AddressComponents.swift */; };
-		D3C5FC8920C34B6C00B842C2 /* AddressComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8620C34B6C00B842C2 /* AddressComponents.swift */; };
 		D3C5FC8B20C34BAB00B842C2 /* GoogleLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8A20C34BAB00B842C2 /* GoogleLocations.swift */; };
-		D3C5FC8C20C34BAB00B842C2 /* GoogleLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8A20C34BAB00B842C2 /* GoogleLocations.swift */; };
-		D3C5FC8D20C34BAB00B842C2 /* GoogleLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC8A20C34BAB00B842C2 /* GoogleLocations.swift */; };
 		D3C5FC9320C34BED00B842C2 /* ViewPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9220C34BED00B842C2 /* ViewPort.swift */; };
-		D3C5FC9420C34BED00B842C2 /* ViewPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9220C34BED00B842C2 /* ViewPort.swift */; };
-		D3C5FC9520C34BED00B842C2 /* ViewPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9220C34BED00B842C2 /* ViewPort.swift */; };
 		D3C5FC9720C34C0800B842C2 /* Bounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9620C34C0800B842C2 /* Bounds.swift */; };
-		D3C5FC9820C34C0800B842C2 /* Bounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9620C34C0800B842C2 /* Bounds.swift */; };
-		D3C5FC9920C34C0800B842C2 /* Bounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9620C34C0800B842C2 /* Bounds.swift */; };
 		D3C5FC9B20C34C1E00B842C2 /* LocationCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9A20C34C1E00B842C2 /* LocationCoordinates.swift */; };
-		D3C5FC9C20C34C1E00B842C2 /* LocationCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9A20C34C1E00B842C2 /* LocationCoordinates.swift */; };
-		D3C5FC9D20C34C1E00B842C2 /* LocationCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9A20C34C1E00B842C2 /* LocationCoordinates.swift */; };
 		D3C5FC9F20C34C3800B842C2 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9E20C34C3800B842C2 /* Geometry.swift */; };
-		D3C5FCA020C34C3800B842C2 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9E20C34C3800B842C2 /* Geometry.swift */; };
-		D3C5FCA120C34C3800B842C2 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FC9E20C34C3800B842C2 /* Geometry.swift */; };
 		D3C5FCA320C350EF00B842C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FCA220C350EF00B842C2 /* MapViewController.swift */; };
-		D3C5FCA420C350EF00B842C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FCA220C350EF00B842C2 /* MapViewController.swift */; };
-		D3C5FCA520C350EF00B842C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FCA220C350EF00B842C2 /* MapViewController.swift */; };
 		D3C5FCA720C3598000B842C2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FCA620C3598000B842C2 /* Address.swift */; };
-		D3C5FCA820C3598000B842C2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FCA620C3598000B842C2 /* Address.swift */; };
-		D3C5FCA920C3598000B842C2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5FCA620C3598000B842C2 /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D30E96B020C4874A00254497 /* NetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
 		D3C5FC4620C347A900B842C2 /* AvenueCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvenueCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C5FC4920C347A900B842C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C5FC4E20C347A900B842C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -158,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				D3C5FC6120C347AA00B842C2 /* AvenueCodeTests.swift */,
+				D30E96B020C4874A00254497 /* NetworkTest.swift */,
 				D3C5FC6320C347AA00B842C2 /* Info.plist */,
 			);
 			path = AvenueCodeTests;
@@ -355,18 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C5FCA420C350EF00B842C2 /* MapViewController.swift in Sources */,
-				D3C5FC8820C34B6C00B842C2 /* AddressComponents.swift in Sources */,
-				D3C5FC8020C3492100B842C2 /* NetworkManager.swift in Sources */,
-				D3C5FC9820C34C0800B842C2 /* Bounds.swift in Sources */,
-				D3C5FC7C20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift in Sources */,
-				D3C5FC8C20C34BAB00B842C2 /* GoogleLocations.swift in Sources */,
-				D3C5FCA820C3598000B842C2 /* Address.swift in Sources */,
-				D3C5FC9C20C34C1E00B842C2 /* LocationCoordinates.swift in Sources */,
-				D3C5FC8420C3495400B842C2 /* Location.swift in Sources */,
-				D3C5FC9420C34BED00B842C2 /* ViewPort.swift in Sources */,
+				D30E96B120C4874A00254497 /* NetworkTest.swift in Sources */,
 				D3C5FC6220C347AA00B842C2 /* AvenueCodeTests.swift in Sources */,
-				D3C5FCA020C34C3800B842C2 /* Geometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,18 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C5FCA520C350EF00B842C2 /* MapViewController.swift in Sources */,
-				D3C5FC8920C34B6C00B842C2 /* AddressComponents.swift in Sources */,
-				D3C5FC8120C3492100B842C2 /* NetworkManager.swift in Sources */,
-				D3C5FC9920C34C0800B842C2 /* Bounds.swift in Sources */,
-				D3C5FC7D20C347DF00B842C2 /* GoogleAPILocationsHomeViewController.swift in Sources */,
-				D3C5FC8D20C34BAB00B842C2 /* GoogleLocations.swift in Sources */,
-				D3C5FCA920C3598000B842C2 /* Address.swift in Sources */,
-				D3C5FC9D20C34C1E00B842C2 /* LocationCoordinates.swift in Sources */,
-				D3C5FC8520C3495400B842C2 /* Location.swift in Sources */,
-				D3C5FC9520C34BED00B842C2 /* ViewPort.swift in Sources */,
 				D3C5FC6D20C347AA00B842C2 /* AvenueCodeUITests.swift in Sources */,
-				D3C5FCA120C34C3800B842C2 /* Geometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
